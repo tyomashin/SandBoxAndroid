@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "472870032186",
+    "firebase_url": "https://pushnotificationsample-facfe.firebaseio.com",
+    "project_id": "pushnotificationsample-facfe",
+    "storage_bucket": "pushnotificationsample-facfe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:472870032186:android:450a0456cc970310c83603",
+        "android_client_info": {
+          "package_name": "com.tyomashin.pushnotificationsampleandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "472870032186-nbdd9np1ssnara8huij3p812lua50iog.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDg0PEF41CG2BnBcdqt83Mh1VQbCWcjH8M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "472870032186-nbdd9np1ssnara8huij3p812lua50iog.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "472870032186-cg8m9bmrtco2u0nt1f1k1ij1dlh517dh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.tyomashin.PushNotificationSample"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
