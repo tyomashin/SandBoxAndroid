@@ -4,6 +4,10 @@ import android.app.*
 import android.content.Context
 import android.content.Intent
 import androidx.core.app.NotificationCompat
+import android.util.Log
+import com.google.firebase.iid.FirebaseInstanceId
+
+
 
 class PushNotificationManager(val context : Context){
     companion object {
@@ -56,6 +60,12 @@ class PushNotificationManager(val context : Context){
             getPendingIntent(0, PendingIntent.FLAG_UPDATE_CURRENT)
         }
         return resultPendingIntent
+    }
+
+    fun testToken(){
+        FirebaseInstanceId.getInstance().instanceId.addOnCompleteListener { task ->
+            Log.d("testToken", task.result?.token)
+        }
     }
 
 

@@ -17,5 +17,7 @@ class MainActivity : AppCompatActivity() {
             // 通知を発行する
             PushNotificationManager(this).showLocalNotification("title", "description")
         }
+
+        PushNotificationManager(this).testToken()
     }
 }
