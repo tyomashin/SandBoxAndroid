@@ -1,0 +1,84 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>AsyncTaskSample - app</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">app</a>&nbsp;/&nbsp;<a href="../index.html">com.tyomashin.asynchronoustest.asyncTasks</a>&nbsp;/&nbsp;<a href="./index.html">AsyncTaskSample</a><br/>
+<br/>
+<h1>AsyncTaskSample</h1>
+<code><span class="keyword">class </span><span class="identifier">AsyncTaskSample</span>&nbsp;<span class="symbol">:</span>&nbsp;<span class="identifier">AsyncTask</span><span class="symbol">&lt;</span><a href="https://docs.oracle.com/javase/6/docs/api/java/lang/Void.html"><span class="identifier">Void</span></a><span class="symbol">,</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">,</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a><span class="symbol">&gt;</span></code>
+<h3>Constructors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-init-.html">&lt;init&gt;</a></p>
+</td>
+<td>
+<code><span class="identifier">AsyncTaskSample</span><span class="symbol">(</span><span class="identifier" id="com.tyomashin.asynchronoustest.asyncTasks.AsyncTaskSample$<init>(android.support.v7.widget.RecyclerView.Adapter((android.support.v7.widget.RecyclerView.ViewHolder)), java.util.ArrayList((com.tyomashin.asynchronoustest.entity.SampleData)), kotlin.Int)/targetAdapter">targetAdapter</span><span class="symbol">:</span>&nbsp;<span class="identifier">Adapter</span><span class="symbol">&lt;</span><span class="identifier">*</span><span class="symbol">&gt;</span><span class="symbol">, </span><span class="identifier" id="com.tyomashin.asynchronoustest.asyncTasks.AsyncTaskSample$<init>(android.support.v7.widget.RecyclerView.Adapter((android.support.v7.widget.RecyclerView.ViewHolder)), java.util.ArrayList((com.tyomashin.asynchronoustest.entity.SampleData)), kotlin.Int)/targetArrayList">targetArrayList</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-array-list/index.html"><span class="identifier">ArrayList</span></a><span class="symbol">&lt;</span><a href="../../com.tyomashin.asynchronoustest.entity/-sample-data/index.html"><span class="identifier">SampleData</span></a><span class="symbol">&gt;</span><span class="symbol">, </span><span class="identifier" id="com.tyomashin.asynchronoustest.asyncTasks.AsyncTaskSample$<init>(android.support.v7.widget.RecyclerView.Adapter((android.support.v7.widget.RecyclerView.ViewHolder)), java.util.ArrayList((com.tyomashin.asynchronoustest.entity.SampleData)), kotlin.Int)/targetPosition">targetPosition</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">)</span></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="target-adapter.html">targetAdapter</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">targetAdapter</span><span class="symbol">: </span><span class="identifier">Adapter</span><span class="symbol">&lt;</span><span class="identifier">*</span><span class="symbol">&gt;</span></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="target-array-list.html">targetArrayList</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">targetArrayList</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-array-list/index.html"><span class="identifier">ArrayList</span></a><span class="symbol">&lt;</span><a href="../../com.tyomashin.asynchronoustest.entity/-sample-data/index.html"><span class="identifier">SampleData</span></a><span class="symbol">&gt;</span></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="target-position.html">targetPosition</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">targetPosition</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="do-in-background.html">doInBackground</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">doInBackground</span><span class="symbol">(</span><span class="keyword">vararg</span> <span class="identifier" id="com.tyomashin.asynchronoustest.asyncTasks.AsyncTaskSample$doInBackground(kotlin.Array((java.lang.Void)))/params">params</span><span class="symbol">:</span>&nbsp;<a href="https://docs.oracle.com/javase/6/docs/api/java/lang/Void.html"><span class="identifier">Void</span></a><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="on-post-execute.html">onPostExecute</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onPostExecute</span><span class="symbol">(</span><span class="identifier" id="com.tyomashin.asynchronoustest.asyncTasks.AsyncTaskSample$onPostExecute(kotlin.Boolean)/result">result</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="on-pre-execute.html">onPreExecute</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onPreExecute</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="on-progress-update.html">onProgressUpdate</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onProgressUpdate</span><span class="symbol">(</span><span class="keyword">vararg</span> <span class="identifier" id="com.tyomashin.asynchronoustest.asyncTasks.AsyncTaskSample$onProgressUpdate(kotlin.Array((kotlin.Int)))/values">values</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

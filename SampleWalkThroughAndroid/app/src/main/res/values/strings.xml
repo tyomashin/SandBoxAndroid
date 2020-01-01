@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">WalkThroughSample</string>
+    <string name="first_fragment_title">１つ目のページ</string>
+    <string name="second_fragment_title">２つ目のページ</string>
+    <string name="third_fragment_title">３つ目のページ</string>
+</resources>

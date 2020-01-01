@@ -1,0 +1,89 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>SampleAdapter - app</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">app</a>&nbsp;/&nbsp;<a href="../index.html">com.tyomashin.asynchronoustest.entity</a>&nbsp;/&nbsp;<a href="./index.html">SampleAdapter</a><br/>
+<br/>
+<h1>SampleAdapter</h1>
+<code><span class="keyword">class </span><span class="identifier">SampleAdapter</span>&nbsp;<span class="symbol">:</span>&nbsp;<span class="identifier">Adapter</span><span class="symbol">&lt;</span><a href="-sample-view-holder/index.html"><span class="identifier">SampleAdapter.SampleViewHolder</span></a><span class="symbol">&gt;</span></code>
+<h3>Types</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-i-my-adapter-click/index.html">IMyAdapterClick</a></p>
+</td>
+<td>
+<code><span class="keyword">interface </span><span class="identifier">IMyAdapterClick</span></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="-sample-view-holder/index.html">SampleViewHolder</a></p>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">SampleViewHolder</span>&nbsp;<span class="symbol">:</span>&nbsp;<span class="identifier">ViewHolder</span></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Constructors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-init-.html">&lt;init&gt;</a></p>
+</td>
+<td>
+<code><span class="identifier">SampleAdapter</span><span class="symbol">(</span><span class="identifier" id="com.tyomashin.asynchronoustest.entity.SampleAdapter$<init>(java.util.ArrayList((com.tyomashin.asynchronoustest.entity.SampleData)), com.tyomashin.asynchronoustest.entity.SampleAdapter.IMyAdapterClick)/dataSet">dataSet</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-array-list/index.html"><span class="identifier">ArrayList</span></a><span class="symbol">&lt;</span><a href="../-sample-data/index.html"><span class="identifier">SampleData</span></a><span class="symbol">&gt;</span><span class="symbol">, </span><span class="identifier" id="com.tyomashin.asynchronoustest.entity.SampleAdapter$<init>(java.util.ArrayList((com.tyomashin.asynchronoustest.entity.SampleData)), com.tyomashin.asynchronoustest.entity.SampleAdapter.IMyAdapterClick)/l">l</span><span class="symbol">:</span>&nbsp;<a href="-i-my-adapter-click/index.html"><span class="identifier">SampleAdapter.IMyAdapterClick</span></a><span class="symbol">)</span></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="adapter-listener.html">adapterListener</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">adapterListener</span><span class="symbol">: </span><a href="-i-my-adapter-click/index.html"><span class="identifier">SampleAdapter.IMyAdapterClick</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="data-set.html">dataSet</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">dataSet</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-array-list/index.html"><span class="identifier">ArrayList</span></a><span class="symbol">&lt;</span><a href="../-sample-data/index.html"><span class="identifier">SampleData</span></a><span class="symbol">&gt;</span></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="get-item-count.html">getItemCount</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">getItemCount</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="on-bind-view-holder.html">onBindViewHolder</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onBindViewHolder</span><span class="symbol">(</span><span class="identifier" id="com.tyomashin.asynchronoustest.entity.SampleAdapter$onBindViewHolder(com.tyomashin.asynchronoustest.entity.SampleAdapter.SampleViewHolder, kotlin.Int)/holder">holder</span><span class="symbol">:</span>&nbsp;<a href="-sample-view-holder/index.html"><span class="identifier">SampleAdapter.SampleViewHolder</span></a><span class="symbol">, </span><span class="identifier" id="com.tyomashin.asynchronoustest.entity.SampleAdapter$onBindViewHolder(com.tyomashin.asynchronoustest.entity.SampleAdapter.SampleViewHolder, kotlin.Int)/position">position</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="on-create-view-holder.html">onCreateViewHolder</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onCreateViewHolder</span><span class="symbol">(</span><span class="identifier" id="com.tyomashin.asynchronoustest.entity.SampleAdapter$onCreateViewHolder(android.view.ViewGroup, kotlin.Int)/viewGroup">viewGroup</span><span class="symbol">:</span>&nbsp;<span class="identifier">ViewGroup</span><span class="symbol">, </span><span class="identifier" id="com.tyomashin.asynchronoustest.entity.SampleAdapter$onCreateViewHolder(android.view.ViewGroup, kotlin.Int)/viewType">viewType</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="-sample-view-holder/index.html"><span class="identifier">SampleAdapter.SampleViewHolder</span></a></code></td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

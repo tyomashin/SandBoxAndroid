@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CustomViewsSample</string>
+    <string name="horizontal_card_scroll_activity">カードを横するクロールするViewのサンプル</string>
+    <string name="test_activity">テスト</string>
+</resources>
