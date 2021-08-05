@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">UIMockSample</string>
+
+    <string name="ui_list_fragment_title">UIコンポーネントリスト</string>
+    
+    <string name="title_carousel_ui_sample">カルーセル</string>
+</resources>

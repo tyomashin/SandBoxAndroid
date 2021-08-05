@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 画面遷移のルートを記述する -->
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/UiListFragment">
+
+    <fragment
+        android:id="@+id/UiListFragment"
+        android:name="com.example.uimocksample.fragment.UIList.UiListFragment"
+        android:label="@string/ui_list_fragment_title"
+        tools:layout="@layout/fragment_uilist">
+    </fragment>
+
+</navigation>
