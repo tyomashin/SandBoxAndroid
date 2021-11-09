@@ -4,13 +4,46 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/UiListFragment">
+    app:startDestination="@id/SplashFragment">
+
+    <fragment
+        android:id="@+id/SplashFragment"
+        android:name="com.example.uimocksample.fragment.splash.SplashFragment"
+        tools:layout="@layout/fragment_splash">
+
+        <!-- バックスタックからスプラッシュ画面を削除している -->
+        <action
+            android:id="@+id/action_Splash_to_UIList"
+            app:popUpToInclusive="true"
+            app:popUpTo="@id/SplashFragment"
+            app:destination="@id/UiListFragment" />
+    </fragment>
 
     <fragment
         android:id="@+id/UiListFragment"
         android:name="com.example.uimocksample.fragment.UIList.UiListFragment"
         android:label="@string/ui_list_fragment_title"
         tools:layout="@layout/fragment_uilist">
+
+        <action
+            android:id="@+id/action_UIList_to_SimpleCustomViewFragment"
+            app:destination="@id/SimpleCustomViewFragment" />
+
+        <action
+            android:id="@+id/action_UIList_to_BottomTabFragment"
+            app:destination="@id/BottomTabFragment"/>
     </fragment>
+
+    <fragment
+        android:id="@+id/SimpleCustomViewFragment"
+        android:name="com.example.uimocksample.fragment.SimpleCustomViewFragment.SimpleCustomViewFragment"
+        android:label="シンプルカスタムView"
+        tools:layout="@layout/fragment_simple_custom_view" />
+
+    <fragment
+        android:id="@+id/BottomTabFragment"
+        android:name="com.example.uimocksample.fragment.BottomTab.BottomTabFragment"
+        android:label="下タブを持つフラグメント"
+        tools:layout="@layout/fragment_bottom_tab1"/>
 
 </navigation>

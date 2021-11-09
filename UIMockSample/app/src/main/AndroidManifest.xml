@@ -15,13 +15,11 @@
             Android.intent.action.MAIN の意味など
             https://www.it-swarm-ja.com/ja/android/androidintentactionmain%E3%81%AE%E6%84%8F%E5%91%B3%E3%81%AF%E4%BD%95%E3%81%A7%E3%81%99%E3%81%8B%EF%BC%9F/1048350927/
          -->
-        <activity android:name=".SplashActivity">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity android:name=".MainActivity">
         </activity>
     </application>
 

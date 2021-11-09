@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_bottom_tab"
+    app:startDestination="@+id/fragment_bottom_first">
+
+    <!-- おそらく、以下にアクションを設定して画面遷移した方がいい。
+    現状だと、戻るボタンタップで最初のタブに戻ってしまう
+     -->
+    <fragment
+        android:id="@+id/fragment_bottom_first"
+        android:name="com.example.uimocksample.fragment.BottomTab.BottomTabFirstFragment"
+        tools:layout="@layout/fragment_bottom_tab_first"/>
+
+    <fragment
+        android:id="@+id/fragment_bottom_second"
+        android:name="com.example.uimocksample.fragment.BottomTab.BottomTabSecondFragment"
+        tools:layout="@layout/fragment_bottom_tab_second"/>
+
+</navigation>

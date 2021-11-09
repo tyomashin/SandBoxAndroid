@@ -21,6 +21,9 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
+        // ツールバーを非表示にする
+        supportActionBar?.hide()
+
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 

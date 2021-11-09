@@ -2,6 +2,8 @@
     <string name="app_name">UIMockSample</string>
 
     <string name="ui_list_fragment_title">UIコンポーネントリスト</string>
-    
+
+    <string name="title_simple_custom_view">単純なカスタムView</string>
+    <string name="title_bottom_tab_fragment_view">下タブを管理するフラグメント</string>
     <string name="title_carousel_ui_sample">カルーセル</string>
 </resources>
